@@ -3,7 +3,7 @@
 FROM python:3.12
 
 # Встановимо змінну середовища
-ENV PERSONAL_ASSISTANT /usr/src/app
+ENV PERSONAL_ASSISTANT_PROJECT /usr/src/app
 
 # Встановимо робочу директорію всередині контейнера
 WORKDIR $PERSONAL_ASSISTANT
