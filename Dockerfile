@@ -13,6 +13,7 @@ COPY . .
 #RUN ls -la
 # Встановимо залежності всередині контейнера
 RUN pip install -r requirements.txt
+CMD python personal_assistant/adress_book.py
 
 # Запустимо наш застосунок всередині контейнера
 #ENTRYPOINT ["python", "adress_book.py"]
